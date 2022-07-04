@@ -26,3 +26,15 @@ code {
 	--Red: #9B2226;
 	--Light-Blue: #F4FFFD;
 }
+.display_on_mobile{
+	display: none;
+}
+.result-section{
+	background-image: url(../src/assests/Images/Oval.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}.e_book-section{
+	background-image: url(../src/assests/Images/Oval.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
