@@ -1,0 +1,29 @@
+.news_text{
+	text-align: left;
+}
+.news_text h1{
+	margin-top: 25px;
+	color: var(--Blue);
+}
+.news_text span{
+	color: var(--Red);
+}
+.news_text p{
+	margin-top: 5px;
+	padding-bottom: 30px;
+	color: var(--Blue);
+}
+
+@media only screen and (max-width: 770px) {
+.news_text{
+    text-align: center;
+}
+.news_text h1{
+    margin-top: 25px;
+    font-size: 1.2rem;
+}
+.news_text p{
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+}

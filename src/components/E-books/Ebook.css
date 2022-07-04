@@ -1,0 +1,47 @@
+.e_book{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.e_book_text{
+	text-align: right;
+}
+.e_book_text h1{
+	color: var(--Blue);
+	font-size: 25px;
+}
+.e_book_text span{
+	color: var(--Red);
+}
+.e_book_text p{
+	margin-top: 10px;
+	padding-bottom: 30px;
+	color: var(--Blue);
+	font-size: 16.5px
+}
+.common_white_btn{
+	text-decoration: none;
+	color: var(--Red);
+	padding: 8px 55px;
+	border: 1px solid var(--Red);
+}
+.e_book_text p a{
+	color: var(--Blue);
+}
+@media only screen and (max-width: 770px){
+    .e_book{
+		padding-top: 90px;
+		padding-bottom: 120px;
+	}
+	.e_book_text{
+		text-align: center;
+	}
+	.e_book_text h1{
+		font-size: 1.05rem;
+	}
+	.e_book_text p{
+		margin-top: 15px;
+		padding-bottom: 30px;
+		font-size: 0.9rem;
+	}
+}
