@@ -6,11 +6,19 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div>
+<<<<<<< HEAD
       <header>
       <div class="nav_container">
         <div class="nav_items">
           <div class="left_side">
             <div class="logo">
+=======
+      <header className="container">
+      <div className="nav_container">
+        <div className="nav_items">
+          <div className="left_side">
+            <div className="logo">
+>>>>>>> a90333abaed46df6b0f4c16876aaea735452da38
               <img src={Logo} id="logo" alt="logo"/>
               <h1>E.C.E</h1>
             </div>
