@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    background-image: url(../src/assests/Images/background.png);
+	background-repeat: no-repeat;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+}
+:root{
+	--Blue: #29335C;
+	--Black: #000000;
+	--White: #ffffff;
+	--Red: #9B2226;
+	--Light-Blue: #F4FFFD;
 }
