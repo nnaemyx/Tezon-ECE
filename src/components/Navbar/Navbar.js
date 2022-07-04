@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div>
-      <header class="container">
+      <header>
       <div class="nav_container">
         <div class="nav_items">
           <div class="left_side">
