@@ -37,3 +37,7 @@ code {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
+.container{
+	margin-left: 100px;
+	margin-right: 80px;
+}
