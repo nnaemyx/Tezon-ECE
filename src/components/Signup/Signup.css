@@ -1,6 +1,4 @@
- 
- 
- .container_signup{
+  .container_signup{
 
  display:grid;
 
@@ -8,13 +6,15 @@
 
  gap:20px;
 
+ height:auto;
+
  justify-content:center;
 
  margin:30px;
 
  }
 
- 
+
 
 .container_signup .content_1{
 
@@ -28,21 +28,21 @@
 
  }
 
- 
+
 
  .container_signup .content_1 .back_icon a{
 
- color:var(--blue);
+ color:#29335C;
 
  font-size:25px;
 
  }
 
- 
+
 
  .container_signup .content_1 .logo{
 
- color:var(--blue);
+ color:#29335C;
 
  display:grid; 
 
@@ -54,7 +54,7 @@
 
  }
 
- 
+
 
  .container_signup .content_1 .logo img{
 
@@ -65,6 +65,8 @@
  margin-left:20px;
 
  }
+
+
 
  .container_signup .content_1 .logo span{
 
@@ -80,7 +82,7 @@
 
  }
 
- 
+
 
  .container_signup .content_1 .get_started{
 
@@ -88,9 +90,9 @@
 
  text-align:center;
 
- color:var(--blue);
+ color:#29335C;
 
- background-color:var(--light_blue);
+ background-color:#F4FFFD;
 
  }
 
@@ -100,7 +102,7 @@
 
  text-align:center;
 
- color:var(--blue);
+ color:#29335C;
 
  font-size:48px;
 
@@ -108,11 +110,11 @@
 
  }
 
- 
+
 
  .container_signup .content_1 .header span{
 
- color:var(--red);
+ color:#9B2226;
 
  }
 
@@ -124,11 +126,11 @@
 
  }
 
- 
+
 
  .form form input::placeholder{
 
- color:var(--blue);
+ color:#29335C;
 
  font-weight:500;
 
@@ -146,7 +148,7 @@
 
  border:2px solid transparent;
 
- border-bottom-color:var(--blue);
+ border-bottom-color:#29335C;
 
  }
 
@@ -158,13 +160,13 @@
 
  }
 
- 
+
 
  .form form button{
 
  width:100%;
 
- background-color:var(--red);
+ background-color:#9B2226;
 
  text-align:center;
 
@@ -180,17 +182,17 @@
 
  }
 
- 
+
 
  .or{
 
  text-align:center;
 
- color:var(--blue);
+ color:#29335C;
 
  }
 
- 
+
 
  .or hr{
 
@@ -200,7 +202,7 @@
 
  margin:5px 10px;
 
- border:1px solid var(--blue);
+ border:1px solid #29335C;
 
  }
 
@@ -226,7 +228,7 @@
 
  padding:9px;
 
- background-color:var(--light_blue);
+ background-color:#F4FFFD;
 
  }
 
@@ -234,7 +236,7 @@
 
  .google a{
 
- color:var(--blue);
+ color:#29335C;
 
  font-weight:500;
 
@@ -244,7 +246,7 @@
 
  }
 
- 
+
 
  .google a span{
 
@@ -252,7 +254,7 @@
 
  }
 
- 
+
 
  .login{
 
@@ -260,17 +262,17 @@
 
  font-size:15px;
 
- color:var(--blue);
+ color:#29335C;
 
  text-align:center;
 
  }
 
- 
+
 
  .login a{
 
- color:var(--red);
+ color:#9B2226;
 
  }
 
@@ -282,11 +284,11 @@
 
  height:auto;
 
- background-color:var(--light_blue);
+ background-color:#F4FFFD;
 
  }
 
- 
+
 
  .container_signup .content_2 img{
 
@@ -296,7 +298,7 @@
 
  }
 
- 
+
 
  @media only screen and (max-width:360px){
 
@@ -316,7 +318,7 @@
 
   }
 
-  
+
 
   .container_signup .content_1{
 
@@ -332,13 +334,15 @@
 
   }
 
+  
+
   .container_signup .content_1 .logo span{
 
   margin-right:150px;
 
   }
 
-  
+
 
   .container_signup .content_1 .header{
 
@@ -346,23 +350,7 @@
 
   }
 
-  
 
-  .or hr{
-
-  width:35%;
-
-  }
-
-  
-
-  .google{
-
-  width:60%;
-
-  }
-
-  
 
   .container_signup .content_2{
 
@@ -371,3 +359,4 @@
   }
 
  }
+
