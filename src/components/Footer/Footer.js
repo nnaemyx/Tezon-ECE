@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div>
-      <section class="last_section">
+      <summary class="last_section">
         <div class="container">
           <div class="last_section_text">
             <h1>Get access to <span>everything</span> now</h1>
@@ -12,7 +12,7 @@ const Footer = () => {
             <a href="" class="common_red_btn">SIGN UP</a>
           </div>
         </div>
-      </section>
+      </summary>
       <footer>
           <div class="footer_content">
             <img src="./src/assests/images/Tezon logo.png" alt="logo"/>
