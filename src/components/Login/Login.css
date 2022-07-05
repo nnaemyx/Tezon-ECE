@@ -16,7 +16,7 @@
 
  
 
-.container .content_1{
+.container_login .content_1{
 
  width:100%;
 
@@ -29,7 +29,7 @@
 
  
 
- .container .content_1 .back_icon a{
+ .container_login .content_1 .back_icon a{
 
  color:var(--blue);
 
@@ -39,7 +39,7 @@
 
  
 
- .container .content_1 .logo{
+ .container_login .content_1 .logo{
 
  color:var(--blue);
 
@@ -55,7 +55,7 @@
 
  
 
- .container .content_1 .logo img{
+ .container_login .content_1 .logo img{
 
  height:70px;
 
@@ -65,7 +65,7 @@
 
  }
 
- .container .content_1 .logo span{
+ .container_login .content_1 .logo span{
 
  display:inline-block;
 
@@ -81,7 +81,7 @@
 
  
 
- .container .content_1 .welcome{
+ .container_login .content_1 .welcome{
 
  font-weight:500;
 
@@ -95,7 +95,7 @@
 
  
 
- .container .content_1 .header{
+ .container_login .content_1 .header{
 
  text-align:center;
 
@@ -109,7 +109,7 @@
 
  
 
- .container .content_1 .header span{
+ .container_login .content_1 .header span{
 
  color:var(--red);
 
@@ -205,7 +205,7 @@
 
  
 
- .container .content_2{
+ .container_login .content_2{
 
  width:100%;
 
@@ -217,7 +217,7 @@
 
  
 
- .container .content_2 img{
+ .container_login .content_2 img{
 
  width:100%;
 
@@ -229,7 +229,7 @@
 
  @media only screen and (max-width:360px){
 
- .container{
+ .container_login{
 
  display:block;
 
@@ -246,7 +246,7 @@
 
  
 
- .container .content_1{
+ .container_login .content_1{
 
  background:none;
 
@@ -254,13 +254,13 @@
 
  
 
- .container .content_1 .logo img{
+ .container_login .content_1 .logo img{
 
  margin-left:60px;
 
  }
 
- .container .content_1 .logo span{
+ .container_login .content_1 .logo span{
 
  margin-right:150px;
 
@@ -268,7 +268,7 @@
 
  
 
- .container .content_1 .header{
+ .container_login .content_1 .header{
 
  font-size:20px;
 
@@ -276,7 +276,7 @@
 
  
 
- .container .content_2{
+ .container_login .content_2{
 
  background:none;
 

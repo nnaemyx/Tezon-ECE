@@ -39,7 +39,7 @@ font-family:'Inter' sans-serif;
 
  
 
-.container .content_1{
+.container_signup .content_1{
 
  width:100%;
 
@@ -52,7 +52,7 @@ font-family:'Inter' sans-serif;
 
  
 
- .container .content_1 .back_icon a{
+ .container_signup .content_1 .back_icon a{
 
  color:var(--blue);
 
@@ -62,7 +62,7 @@ font-family:'Inter' sans-serif;
 
  
 
- .container .content_1 .logo{
+ .container_signup .content_1 .logo{
 
  color:var(--blue);
 
@@ -78,7 +78,7 @@ font-family:'Inter' sans-serif;
 
  
 
- .container .content_1 .logo img{
+ .container_signup .content_1 .logo img{
 
  height:70px;
 
@@ -88,7 +88,7 @@ font-family:'Inter' sans-serif;
 
  }
 
- .container .content_1 .logo span{
+ .container_signup .content_1 .logo span{
 
  display:inline-block;
 
@@ -104,7 +104,7 @@ font-family:'Inter' sans-serif;
 
  
 
- .container .content_1 .get_started{
+ .container_signup .content_1 .get_started{
 
  font-weight:500;
 
@@ -132,7 +132,7 @@ font-family:'Inter' sans-serif;
 
  
 
- .container .content_1 .header span{
+ .container_signup .content_1 .header span{
 
  color:var(--red);
 
@@ -298,7 +298,7 @@ font-family:'Inter' sans-serif;
 
  
 
- .container .content_2{
+ .container_signup .content_2{
 
  width:100%;
 
@@ -310,7 +310,7 @@ font-family:'Inter' sans-serif;
 
  
 
- .container .content_2 img{
+ .container_signup .content_2 img{
 
  width:100%;
 
@@ -322,7 +322,7 @@ font-family:'Inter' sans-serif;
 
  @media only screen and (max-width:360px){
 
-  .container{
+  .container_signup{
 
   display:block;
 
@@ -339,7 +339,7 @@ font-family:'Inter' sans-serif;
 
   
 
-  .container .content_1{
+  .container_signup .content_1{
 
   background:none;
 
@@ -347,13 +347,13 @@ font-family:'Inter' sans-serif;
 
   
 
-  .container .content_1 .logo img{
+  .container_signup .content_1 .logo img{
 
   margin-left:60px;
 
   }
 
-  .container .content_1 .logo span{
+  .container_signup .content_1 .logo span{
 
   margin-right:150px;
 
@@ -361,7 +361,7 @@ font-family:'Inter' sans-serif;
 
   
 
-  .container .content_1 .header{
+  .container_signup .content_1 .header{
 
   font-size:20px;
 
@@ -385,7 +385,7 @@ font-family:'Inter' sans-serif;
 
   
 
-  .container .content_2{
+  .container_signup .content_2{
 
   background:none;
 
