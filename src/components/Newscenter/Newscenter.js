@@ -5,16 +5,16 @@ import Image4 from './image 4.png'
 const Newscenter = () => {
   return (
     <div>
-      <section class="container">
-        <div class="row">
-          <div class="col_1">
-            <div class="news_text">
+      <section className="container">
+        <div className="row">
+          <div className="col_1">
+            <div className="news_text">
               <h1>Stay <span>updated</span> everyday and everytime</h1>
               <p>Get steady info and news, lecture timetable updates, newly uploaded pdfs and more</p>
-              <a href="" class="common_white_btn">NEWS CENTER</a>
+              <a href="google.com" className="common_white_btn">NEWS CENTER</a>
             </div>
           </div>
-          <div class="col_2">
+          <div className="col_2">
             <img src={Image4} alt="img4"/>
           </div>
         </div>	
