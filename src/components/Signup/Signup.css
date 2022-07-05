@@ -1,15 +1,4 @@
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: 'Inter', sans-serif;
-}
-:root{
-	--Blue: #29335C;
-	--White: #ffffff;
-	--Red: #9B2226;
-	--Light-Blue: #F4FFFD;
-}
+ 
  
  .container_signup{
 
