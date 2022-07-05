@@ -1,5 +1,6 @@
 import React from 'react'
 import './Newscenter.css'
+import Image4 from './image 4.png'
 
 const Newscenter = () => {
   return (
@@ -14,7 +15,7 @@ const Newscenter = () => {
             </div>
           </div>
           <div class="col_2">
-            <img src="./src/assests/images/image 4.png" alt="img4"/>
+            <img src={Image4} alt="img4"/>
           </div>
         </div>	
       </section>

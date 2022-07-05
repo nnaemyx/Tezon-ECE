@@ -20,11 +20,11 @@ const Signup = () => {
 
 					<form method="post" action=" " autocomplete="on" >
 
-						<input type="textbox" name="fullname" placeholder="Full name" required><br>
+						<input type="textbox" name="fullname" placeholder="Full name" required/><br/>
 
-						<input type="email" name="email" placeholder="E-mail" required ><br>
+						<input type="email" name="email" placeholder="E-mail" required /><br/>
 
-						<input type="password" name="password" placeholder="Password" required><br>
+						<input type="password" name="password" placeholder="Password" required/><br/>
 
 						<button type="submit" >SIGN UP</button>
 
@@ -32,7 +32,7 @@ const Signup = () => {
 
 				</div>
 
-				<div class="or" ><hr><span>OR</span><hr></div>
+				<div class="or" ><hr/><span>OR</span><hr/></div>
 
 				<div class="google" ><a href="" ><i class="fa-brands fa-google"></i><span>Sign up with Google</span></a></div>
 
@@ -42,7 +42,7 @@ const Signup = () => {
 
 			<div class="content_2">
 
-				<img src="src/assests/Images/image 2.png" >
+				<img src="src/assests/Images/image 2.png" />
 
 			</div>
 

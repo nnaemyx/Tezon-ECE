@@ -1,6 +1,6 @@
 import React from 'react'
 import './Ebook.css'
-
+import Image5 from './image 5.png'
 
 const Ebooks = () => {
   return (
@@ -9,7 +9,7 @@ const Ebooks = () => {
         <div class="container">
           <div class="row reverse">
             <div class="col_2">
-              <img src="./src/assests/images/image 5.png" alt="img5"/>
+              <img src={Image5} alt="img5"/>
             </div>
             <div class="col_3">
               <div class="e_book_text">

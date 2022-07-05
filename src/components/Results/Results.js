@@ -1,5 +1,6 @@
 import React from 'react'
 import './Results.css'
+import Image6 from './image 6.png'
 
 const Results = () => {
   return (
@@ -8,7 +9,7 @@ const Results = () => {
         <div class="container">
           <div class="row reverse">
             <div class="col_2">
-              <img src="./src/assests/images/image 6.png" alt="img6"/>
+              <img src={Image6} alt="img6"/>
             </div>
             <div class="col_3">
               <div class="result_text">
