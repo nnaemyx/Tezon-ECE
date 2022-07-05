@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import Logo from './ECE LOGO (Gradient).png'
 
 const Navbar = () => {
   return (
@@ -9,7 +10,7 @@ const Navbar = () => {
         <div class="nav_items">
           <div class="left_side">
             <div class="logo">
-              <img src="./src/assests/ECE LOGO (Gradient).png" id="logo" alt="logo"/>
+              <img src={Logo} id="logo" alt="logo"/>
               <h1>E.C.E</h1>
             </div>
           </div>
