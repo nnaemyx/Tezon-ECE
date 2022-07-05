@@ -1,7 +1,7 @@
 import React from 'react'
 import './Login.css'
 import Image3 from './image 3.png'
-import Logo from '../Navbar/ECE LOGO (Gradient).png'
+import Logo from '../Navbar/ECE LOGO With TEXT.png'
 
 
 const Login = () => {
@@ -13,7 +13,7 @@ const Login = () => {
 
 				<div className="back_icon" ><a href="google.com" ><i class="fa-solid fa-angle-left"></i></a></div>
 
-				<div className="logo"><img src={Logo} alt='ec' /><span>E.C.E</span></div>
+				<div className="logo"><img src={Logo} alt='ec' /></div>
 
 				<p className="welcome" >Welcome Back</p>
 
