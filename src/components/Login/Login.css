@@ -1,29 +1,6 @@
 
-:root{
 
---blue:#29335C;
-
---red:#9B2226;
-
---light_blue:#F4FFFD
-
-}
-
-*{
-
-box-sizing:border-box;
-
-}
-
-html,body{
-
-margin:0;
-
-font-family:'Inter' sans-serif;
-
-}
-
- .container{
+ .container_login{
 
  display:grid;
 
@@ -45,7 +22,6 @@ font-family:'Inter' sans-serif;
 
  height:auto;
 
- background:url('src/assests/Images/background.png') center no-repeat;
 
  background-size:180%;
 
@@ -263,7 +239,6 @@ font-family:'Inter' sans-serif;
 
  margin:20px;
 
- background:url('src/assests/Images/background.png') center no-repeat;
 
  background-size:180%;
 

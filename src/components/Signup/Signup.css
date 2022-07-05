@@ -23,7 +23,7 @@ font-family:'Inter' sans-serif;
 
 }
 
- .container{
+ .container_signup{
 
  display:grid;
 
@@ -45,7 +45,6 @@ font-family:'Inter' sans-serif;
 
  height:auto;
 
- background:url('src/assests/Images/background.png') center no-repeat;
 
  background-size:180%;
 
@@ -333,7 +332,6 @@ font-family:'Inter' sans-serif;
 
   margin:20px;
 
-  background:url('src/assests/Images/background.png') center no-repeat;
 
   background-size:180%;
 

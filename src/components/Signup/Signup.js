@@ -4,7 +4,7 @@ import './Signup.css'
 const Signup = () => {
   return (
     <div>
-        <div class="container">
+        <div class="container_signup">
 
 			<div class="content_1" >
 
