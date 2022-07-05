@@ -1,0 +1,44 @@
+.result{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.result_text{
+	text-align: right;
+}
+.result_text h1{
+	color: var(--Blue);
+	font-size: 25px;
+}
+.result_text span{
+	color: var(--Red);
+}
+.result_text p{
+	margin-top: 10px;
+	padding-bottom: 30px;
+	color: var(--Blue);
+}
+.common_white_btn{
+	text-decoration: none;
+	color: var(--Red);
+	padding: 8px 55px;
+	border: 1px solid var(--Red);
+}
+.result_text p a{
+	color: var(--Blue);
+}
+@media only screen and (max-width: 770px) {
+    .result{
+		padding-top: 100px;
+	}
+	.result_text{
+		text-align: center;
+	}
+	.result_text h1{
+		color: var(--Blue);
+		font-size: 1.1rem;
+	}
+	.result_text p{
+		font-size: 0.8rem;
+	}
+}
