@@ -6,13 +6,15 @@
 
  gap:20px;
 
+ height:auto;
+
  justify-content:center;
 
  margin:30px;
 
  }
 
- 
+
 
 .container_login .content_1{
 
@@ -26,21 +28,21 @@
 
  }
 
- 
+
 
  .container_login .content_1 .back_icon a{
 
- color:var(--blue);
+ color:#29335C;
 
  font-size:25px;
 
  }
 
- 
+
 
  .container_login .content_1 .logo{
 
- color:var(--blue);
+ color:#29335C;
 
  display:grid; 
 
@@ -52,7 +54,7 @@
 
  }
 
- 
+
 
  .container_login .content_1 .logo img{
 
@@ -63,6 +65,8 @@
  margin-left:20px;
 
  }
+
+
 
  .container_login .content_1 .logo span{
 
@@ -78,7 +82,7 @@
 
  }
 
- 
+
 
  .container_login .content_1 .welcome{
 
@@ -86,19 +90,19 @@
 
  text-align:center;
 
- color:var(--blue);
+ color:#29335C;
 
- background-color:var(--light_blue);
+ background-color:#F4FFFD;
 
  }
 
- 
+
 
  .container_login .content_1 .header{
 
  text-align:center;
 
- color:var(--blue);
+ color:#29335C;
 
  font-size:48px;
 
@@ -106,15 +110,15 @@
 
  }
 
- 
+
 
  .container_login .content_1 .header span{
 
- color:var(--red);
+ color:#9B2226;
 
  }
 
- 
+
 
  .form form{
 
@@ -122,11 +126,11 @@
 
  }
 
- 
+
 
  .form form input::placeholder{
 
- color:var(--blue);
+ color:#29335C;
 
  font-weight:500;
 
@@ -144,7 +148,7 @@
 
  border:2px solid transparent;
 
- border-bottom-color:var(--blue);
+ border-bottom-color:#29335C;
 
  }
 
@@ -156,7 +160,7 @@
 
  }
 
- 
+
 
  .forgot{
 
@@ -166,11 +170,11 @@
 
  }
 
- 
+
 
  .forgot a{
 
- color:var(--red);
+ color:#9B2226;
 
  text-decoration:none;
 
@@ -180,13 +184,13 @@
 
  }
 
- 
+
 
  .form form button{
 
  width:100%;
 
- background-color:var(--red);
+ background-color:#9B2226;
 
  text-align:center;
 
@@ -202,7 +206,7 @@
 
  }
 
- 
+
 
  .container_login .content_2{
 
@@ -210,7 +214,7 @@
 
  height:auto;
 
- background-color:var(--light_blue);
+ background-color:#F4FFFD;
 
  }
 
@@ -224,9 +228,11 @@
 
  }
 
- 
+
 
  @media only screen and (max-width:360px){
+
+
 
  .container_login{
 
@@ -244,7 +250,7 @@
 
  }
 
- 
+
 
  .container_login .content_1{
 
@@ -252,7 +258,7 @@
 
  }
 
- 
+
 
  .container_login .content_1 .logo img{
 
@@ -260,13 +266,15 @@
 
  }
 
+
+
  .container_login .content_1 .logo span{
 
  margin-right:150px;
 
  }
 
- 
+
 
  .container_login .content_1 .header{
 
@@ -274,7 +282,7 @@
 
  }
 
- 
+
 
  .container_login .content_2{
 
@@ -283,3 +291,17 @@
  }
 
 }
+
+
+
+ 
+
+ 
+ 
+
+
+ 
+
+
+
+ 
