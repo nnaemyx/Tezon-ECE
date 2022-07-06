@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import Logo from './ECE LOGO (Gradient).png'
+import Logo from './ECE LOGO With TEXT.png'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
@@ -10,10 +10,7 @@ const Navbar = () => {
       <div className="nav_container">
         <div className="nav_items">
           <div className="left_side">
-            <div className="logo">
-              <img src={Logo} id="logo" alt="logo"/>
-              <h1>E.C.E</h1>
-            </div>
+            <img src={Logo} className="logo" alt="logo"/>
           </div>
           <div className="right_side">
             <ul>

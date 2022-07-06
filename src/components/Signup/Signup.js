@@ -1,6 +1,6 @@
 import React from 'react'
 import './Signup.css'
-import Logo from '../Navbar/ECE LOGO (Gradient).png'
+import Logo from '../Navbar/ECE LOGO With TEXT.png'
 import Image2 from './image 2.png'
 
 const Signup = () => {
@@ -12,7 +12,7 @@ const Signup = () => {
 
 				<div className="back_icon" ><a href="google.com" ><i className="fa-solid fa-angle-left"></i></a></div>
 
-				<div className="logo"><img src={Logo} alt='ece' /><span>E.C.E</span></div>
+				<div className="logo"><img src={Logo} alt='ece' /></div>
 
 				<p className="get_started" >Get started</p>
 
