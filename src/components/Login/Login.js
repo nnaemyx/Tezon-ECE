@@ -22,14 +22,12 @@ const Login = () => {
 				<div className="form" >
 
 					<form method="post" action=" " autocomplete="on" >
+					
+				  		<input type="email" name="email" placeholder="E-mail" required /><br/>
+						  <input type="password" name="password" placeholder="Password" required/><br/>
+						  <p className="forgot" ><a href="google.com" >Forgot password?</a></p>
 
-						<input type="email" name="email" placeholder="E-mail" required /><br/>
-
-						<input type="password" name="password" placeholder="Password" required/><br/>
-
-						<p className="forgot" ><a href="google.com" >Forgot password?</a></p>
-
-						<button type="submit" >LOG IN</button>
+						  <button type="submit" >LOG IN</button>
 
 					</form>
 
