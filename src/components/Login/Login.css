@@ -1,5 +1,4 @@
-
- .container_login{
+.container_login{
  display:grid;
  grid-template:auto auto/50% 50%;
  gap:20px;
@@ -23,24 +22,13 @@
 
  .container_login .content_1 .logo{
  color:#29335C;
- display:grid; 
  margin-left:15px;
  margin-top:-10px;
- grid-template:auto auto/auto auto;
  }
 
  .container_login .content_1 .logo img{
- height:70px;
- max-width:70px;
- margin-left:20px;
- }
-
- .container_login .content_1 .logo span{
- display:inline-block;
- font-stretch:expanded;
- transform:scale(2,1.2);
- margin-top:25px;
- margin-right:1000px;
+ height:100px;
+ max-width:100px;
  }
 
  .container_login .content_1 .welcome{
@@ -131,12 +119,8 @@
  background:none;
  }
 
- .container_login .content_1 .logo img{
- margin-left:60px;
- }
-
- .container_login .content_1 .logo span{
- margin-right:150px;
+ .container_login .content_1 .logo{
+ margin-left:50px;
  }
 
  .container_login .content_1 .header{
