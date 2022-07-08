@@ -23,3 +23,17 @@ The designs were created to the following widths:
 
 - Family: [inter](https://fonts.google.com/specimen/Inter?query=inter)
 - Weights: 500, 600, 700
+
+### Users dashboard 
+
+- Font-size : 14px(paragraph) 20px(heading)
+- Font-family: inter
+- color: -#29335C: blue and white
+- Image {
+    height: 102px;
+    width: 168px;
+    left: 114px;
+    top: 680px;
+    border-radius: 0px;
+}
+- Font-weight : 600(heading) 400(paragraph)
