@@ -4,29 +4,24 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div>
-      <summary class="last_section">
-        <div class="container">
-          <div class="last_section_text">
-            <h1>Get access to <span>everything</span> now</h1>
-            <img src="./src/assests/images/Vector 2.png"/>
-            <a href="" class="common_red_btn">SIGN UP</a>
+      <section>
+        <summary>
+          <h2>Get access to everything <span>now</span> <img src="src/assests/images/Vector 2.png"/> <a href="">Sign Up</a></h2>
+        </summary>
+        <footer>
+          <div className ="col_9">
+            <img src="src/assests/images/Tezon logo.png"/>
           </div>
-        </div>
-      </summary>
-      <footer>
-          <div class="footer_content">
-            <img src="./src/assests/images/Tezon logo.png" alt="logo"/>
-            <div class="footer_text">
-              <h1>TEZON</h1>
-              <p>This is the project of the Tezon Team, an 8 man squad from the 200lvl students of <br class="hide_on_mobile"/>Electronics and Computer Engineering</p>
-              <div class="find_us">
-                <a href="">Contact Us</a>
-                <a href="">About Us</a>
-              </div>
+          <div className="col_10">
+            <h2>This is a project of the Tezon team. Tezon is an 8 man squad from the 200 level students of electronics and computer engineeering</h2>
+            <div className="abt_tz">
+              <a href="">Contact Us</a>
+              <a href="">About Us</a>
             </div>
           </div>
-      </footer>
-    </div>
+        </footer>
+	    </section>
+	  </div>
   )
 }
 

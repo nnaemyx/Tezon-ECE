@@ -20,9 +20,9 @@ const Login = () => {
 
 					<form method="post" action=" " autocomplete="on" >
 
-						<input type="email" name="email" placeholder="E-mail" required ><br>
+						<input type="email" name="email" placeholder="E-mail" required /><br/>
 
-						<input type="password" name="password" placeholder="Password" required><br>
+						<input type="password" name="password" placeholder="Password" required/><br/>
 
 						<p class="forgot" ><a href="" >Forgot password?</a></p>
 
@@ -36,7 +36,7 @@ const Login = () => {
 
 			<div class="content_2">
 
-				<img src="image 3.png" >
+				<img src="image 3.png"/>
 
 			</div>
 
