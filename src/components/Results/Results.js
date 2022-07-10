@@ -10,23 +10,20 @@ import Logo from '../Navbar/ECE LOGO With TEXT.png'
 const Login = () => {
   return (
     <div>
-
-      <section className="result result-section">
-        <div className="container">
-          <div className="row reverse">
-            <div className="col_2">
-              <img src={Image6} alt="img6"/>
+      <section className="result" style="background-image: url(src/assests/images/Oval.png);">
+        <div className="result_container"> 
+          <div className="result_row">
+            <div className="col_7">
+              <img src="src/assests/images/image 6.png"/>
             </div>
-            <div className="col_3">
-              <div className="result_text">
-                <h1>Get your presonal semester <span>results</span> here with just one click.</h1>
-                <p>Don't worry, only YOU can see your own result. Visit the <a href="google.com">news center</a> to see when results are uploaded</p>
-                <a href="google.com" className="common_white_btn">VIEW RESULTS</a>
-              </div>
+            <div className="col_8">
+              <h1>Get your personal semester <span>results</span> here with just one click</h1>
+              <p>Don't worry only You can see Your own result. Visit the <a href="" >news center</a> to see when results are uploaded</p>
+              <a href="" className="view_res">View result</a>
             </div>
           </div>
         </div>
-    </section>
+      </section>
 
        <div className="container_login">
 
