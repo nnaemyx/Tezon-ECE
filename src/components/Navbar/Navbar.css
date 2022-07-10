@@ -4,10 +4,20 @@
 	padding: 0;
 	margin: 0;
 }
+
+.nav_items{
+	background-color: var(--Light-Blue);
+	display: flex;
+	align-items: center;
+	height: 70px;
+	justify-content: space-between;
+	width: 100%;
+
 nav{
 	background-color: #F4FFFD;
 	height: 80px;
 	padding: 32px 0;
+
 }
 .nav_container{
 	margin-right: 60px;
@@ -24,8 +34,17 @@ nav{
 	float: right;
 	display: flex;
 }
+
+
+	
+.logo{
+	width: 230px;
+	position: relative;
+	top: 5px;
+
 .right_side ul{
 	margin-right: 250px;
+
 }
 .right_side ul li{
 	display: inline-block;

@@ -1,24 +1,34 @@
 import React from 'react'
 import './Login.css'
+import Image3 from './image 3.png'
+import Logo from '../Navbar/ECE LOGO With TEXT.png'
+
 
 const Login = () => {
   return (
     <div>
-       <div class="container_login">
+       <div className="container_login">
 
-			<div class="content_1" >
+			<div className="content_1" >
 
-				<div class="back_icon" ><a href="" ><i class="fa-solid fa-angle-left"></i></a></div>
+				<div className="back_icon" ><a href="google.com" ><i class="fa-solid fa-angle-left"></i></a></div>
 
-				<div class="logo"><img src="ECE_LOGO.png" /><span>E.C.E</span></div>
+				<div className="logo"><img src={Logo} alt='ec' /></div>
 
-				<p class="welcome" >Welcome Back</p>
+				<p className="welcome" >Welcome Back</p>
 
-				<div class="header">Get back on <span>track</span></div>
+				<div className="header">Get back on <span>track</span></div>
 
-				<div class="form" >
+				<div className="form" >
 
 					<form method="post" action=" " autocomplete="on" >
+					
+				  		<input type="email" name="email" placeholder="E-mail" required /><br/>
+						  <input type="password" name="password" placeholder="Password" required/><br/>
+						  <p className="forgot" ><a href="google.com" >Forgot password?</a></p>
+
+
+						  <button type="submit" >LOG IN</button>
 
 						<input type="email" name="email" placeholder="E-mail" required /><br/>
 
@@ -28,15 +38,20 @@ const Login = () => {
 
 						<button type="submit" >LOG IN</button>
 
+
 					</form>
 
 				</div>
 
 			</div>
 
-			<div class="content_2">
+			<div className="content_2">
+
+
+				<img src={Image3} alt='p'/>
 
 				<img src="image 3.png"/>
+
 
 			</div>
 
