@@ -27,7 +27,17 @@ const Login = () => {
 						  <input type="password" name="password" placeholder="Password" required/><br/>
 						  <p className="forgot" ><a href="google.com" >Forgot password?</a></p>
 
+
 						  <button type="submit" >LOG IN</button>
+
+						<input type="email" name="email" placeholder="E-mail" required /><br/>
+
+						<input type="password" name="password" placeholder="Password" required/><br/>
+
+						<p class="forgot" ><a href="" >Forgot password?</a></p>
+
+						<button type="submit" >LOG IN</button>
+
 
 					</form>
 
@@ -37,7 +47,11 @@ const Login = () => {
 
 			<div className="content_2">
 
+
 				<img src={Image3} alt='p'/>
+
+				<img src="image 3.png"/>
+
 
 			</div>
 
