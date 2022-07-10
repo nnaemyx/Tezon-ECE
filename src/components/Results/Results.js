@@ -12,16 +12,16 @@ import Logo from '../Navbar/ECE LOGO With TEXT.png'
 const Login = () => {
   return (
     <div>
-      <section class="result" style="background-image: url(src/assests/images/Oval.png);">
-        <div class="result_container"> 
-          <div class="result_row">
-            <div class="col_7">
+      <section className="result" style="background-image: url(src/assests/images/Oval.png);">
+        <div className="result_container"> 
+          <div className="result_row">
+            <div className="col_7">
               <img src="src/assests/images/image 6.png"/>
             </div>
-            <div class="col_8">
+            <div className="col_8">
               <h1>Get your personal semester <span>results</span> here with just one click</h1>
               <p>Don't worry only You can see Your own result. Visit the <a href="" >news center</a> to see when results are uploaded</p>
-              <a href="" class="view_res">View result</a>
+              <a href="" className="view_res">View result</a>
             </div>
           </div>
         </div>
