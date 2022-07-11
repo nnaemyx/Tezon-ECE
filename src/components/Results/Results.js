@@ -2,8 +2,6 @@ import React from 'react'
 
 import './Results.css'
 import Image6 from './image 6.png'
-
-import './Login.css'
 import Image3 from './image 3.png'
 import Logo from '../Navbar/ECE LOGO With TEXT.png'
 
