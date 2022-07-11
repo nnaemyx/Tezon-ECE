@@ -6,26 +6,25 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div>
-      <header className="container">
+    <nav>
       <div className="nav_container">
-        <div className="nav_items">
-          <div className="left_side">
-            <img src={Logo} className="logo" alt="logo"/>
-          </div>
-          <div className="right_side">
-            <ul>
-              <li><a href="google.com">Home</a></li>
-              <li><a href="google.com">Sections</a></li>
-              <li><a href="google.com">Info</a></li>
-            </ul>
-            <div className="immerse_links">
-              <Link to="/login" className="log_in">LOG IN</Link>
-              <Link to="/signup" className="sign_up">SIGN UP</Link>
-            </div>
-          </div>
-        </div>
+        <img src={Logo} class="logo" alt='logo'/>
+        <div class="right_side">
+          <ul>
+            <li><a href="google.com">Home</a></li>
+            <li><a href="google.com">Sections</a></li>
+            <li><a href="google.com">Info</a></li>
+          </ul>
+          <Link to='/login'>
+            <a href='/' className="log">LOG IN</a>
+          </Link>
+          <Link  to='/signup'>
+            <a href='/' className="sign">SIGN UP</a>
+          </Link>
+         
+       </div>
       </div>
-  </header>
+	  </nav> 
   </div>
   )
 }

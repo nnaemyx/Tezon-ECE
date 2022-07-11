@@ -1,27 +1,24 @@
 import React from 'react'
 import './Hero.css'
 import Image1 from './images/image 1.png'
-import Vector from './images/Vector.png'
+
 
 const Hero = () => {
   return (
     <div>
-     <section className="container">
-        <div className="row">
+      <section className="hero_container">
+        <div className="hero_row">
           <div className="col_1">
-            <div className="hero_text">
-              <h2>FACULTY OF ENGINEERING</h2>
-              <h1>Department of <span>Electronics</span> and <span>Computer</span> Engineering</h1>
-              <img src={Vector} id="vector" alt="vector"/>
-              <p>A plug into an Engineering digital library,<br className="hide_on_mobile"/> Let's study.</p>
-              <a href="google.com" className="common_red_btn">GET STARTED</a>
-            </div>
+            <h2>FACULTY OF ENGINEERING</h2>
+            <h1>Department of <span>Electronics</span> and <span>Computer</span> Engineering</h1>
+            <p>A plug into an engineering digital library, <br class="hero_hide"/>Let's study.</p>
+            <a href="google.com">Get Started</a>
           </div>
           <div className="col_2">
-            <img src={Image1} alt="img1"/>
-          </div>
-        </div>	
-      </section>
+            <img src={Image1} alt='image1'/>
+         </div>
+        </div>
+		  </section>
     </div>
   )
 }
