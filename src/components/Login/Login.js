@@ -34,7 +34,7 @@ const Login = () => {
 
 						<input type="password" name="password" placeholder="Password" required/><br/>
 
-						<p class="forgot" ><a href="" >Forgot password?</a></p>
+						<p class="forgot" ><a href="google.com" >Forgot password?</a></p>
 
 						<button type="submit" >LOG IN</button>
 
@@ -49,8 +49,6 @@ const Login = () => {
 
 
 				<img src={Image3} alt='p'/>
-
-				<img src="image 3.png"/>
 
 
 			</div>

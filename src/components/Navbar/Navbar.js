@@ -8,15 +8,20 @@ const Navbar = () => {
     <div>
     <nav>
       <div className="nav_container">
-        <img src={Logo} class="logo"/>
+        <img src={Logo} class="logo" alt='logo'/>
         <div class="right_side">
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Sections</a></li>
-            <li><a href="">Info</a></li>
+            <li><a href="google.com">Home</a></li>
+            <li><a href="google.com">Sections</a></li>
+            <li><a href="google.com">Info</a></li>
           </ul>
-          <a href="" className="log">LOG IN</a>
-          <a href="" className="sign">SIGN UP</a>
+          <Link to='/login'>
+            <a href='/' className="log">LOG IN</a>
+          </Link>
+          <Link  to='/signup'>
+            <a href='/' className="sign">SIGN UP</a>
+          </Link>
+         
        </div>
       </div>
 	  </nav> 
