@@ -1,10 +1,12 @@
 import React from 'react'
 import './UserDashboard.css'
 
-const UserDasboard = () => {
+const UserDashboard = () => {
   return (
-    <div>UserDasboard</div>
+    <div>
+      <h1> user</h1>
+      </div>
   )
 }
 
-export default UserDasboard
+export default UserDashboard
