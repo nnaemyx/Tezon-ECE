@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div>
-    <nav>
       <div className="nav_container">
         <img src={Logo} class="logo" alt='logo'/>
         <div class="right_side">
@@ -24,8 +23,7 @@ const Navbar = () => {
          
        </div>
       </div>
-	  </nav> 
-  </div>
+    </div>
   )
 }
 
