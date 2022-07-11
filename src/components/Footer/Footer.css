@@ -52,7 +52,7 @@ summary img{
 @media only screen and (max-width: 700px){
 	summary h2{
 		font-size: 16px;
-		margin-left: 8px;
+		margin-left: 4px;
 	}
 	summary a{
 		padding: 4px 16px;
