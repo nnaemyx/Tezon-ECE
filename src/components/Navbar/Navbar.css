@@ -16,8 +16,8 @@ nav{
 	width: 150px;
 	height: 150px;
 	float: left;
-	position: relative;
-	top: -64px;
+	position: absolute;
+	top: -32px;
 }
 .right_side{
 	float: right;
@@ -55,6 +55,7 @@ nav{
 		margin-right: 100px;
 	}
 }
+
 @media only screen and (max-width: 884px){
 	.right_side ul{
 		display: none;
@@ -67,6 +68,9 @@ nav{
 	}
 }
 @media only screen and (max-width: 700px){
+	nav{
+		height: 75px;
+	}
 	.logo{
 		left: -28px;
 	}
