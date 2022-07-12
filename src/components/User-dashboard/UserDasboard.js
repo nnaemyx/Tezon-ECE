@@ -3,7 +3,7 @@ import './UserDashboard.css'
 
 const UserDashboard = () => {
   return (
-    <div>
+    <div className="user">
       <h1> user</h1>
       </div>
   )
