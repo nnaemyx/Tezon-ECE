@@ -5,8 +5,8 @@ const UserDashboard = () => {
   return (
     <div>
       <h1> user</h1>
-      </div>
-    <div></div>
+    </div>
+
 
   )
 }
